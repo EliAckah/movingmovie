@@ -1,10 +1,10 @@
-Movie App
+**Movie App**
 
-Overview
+**Overview**
 
 This is a React-based movie search application with optimized searching functionality. It utilizes The Movie Database (TMDb) API to fetch movies and display trending movies. The app also features a debounced search to reduce unnecessary API calls and improve performance. Additionally, it integrates with Appwrite for tracking search counts.
 
-Features
+**Features**
 
 🔎 Search for Movies: Instantly find movies using TMDb API.
 
@@ -16,7 +16,9 @@ Features
 
 📡 Error Handling: Handles API errors and network issues gracefully.
 
-Technologies Used
+
+
+**Technologies Used**
 
 React (Frontend framework)
 
@@ -28,7 +30,8 @@ React Hooks (State management and side effects)
 
 React Use (Debounce functionality)
 
-Installation
+
+**Installation**
 
 Clone the repository:
 
@@ -44,11 +47,11 @@ Create a .env.local file in the root directory and add your TMDb API key:
 
 VITE_TMDB_API_KEY=your_tmdb_api_key_here
 
-Start the development server:
+**Start the development server:**
 
 npm run dev
 
-Usage
+**Usage**
 
 Type a movie name in the search bar to fetch results.
 
