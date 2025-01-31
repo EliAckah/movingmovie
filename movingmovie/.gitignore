@@ -6,11 +6,26 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+debug.log
+*.trace
 
+# Dependency directories
 node_modules
+.yarn/
+.pnpm-store/
+
+# Build & Output
 dist
 dist-ssr
-*.local
+build/
+.cache/
+out/
+coverage/
+
+# Environment variables & Configs
+.env
+.env.*
+config.json
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +37,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS-Specific
+Thumbs.db
+desktop.ini
+
+# Appwrite (if applicable)
+appwrite.json
+**/_appwrite/
