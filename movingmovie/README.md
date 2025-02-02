@@ -35,8 +35,8 @@ React Use (Debounce functionality)
 
 Clone the repository:
 
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/EliAckah/movingmovie.git
+cd movingmovie
 
 Install dependencies:
 
