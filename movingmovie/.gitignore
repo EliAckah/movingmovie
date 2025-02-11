@@ -42,6 +42,6 @@ config.json
 Thumbs.db
 desktop.ini
 
-# Appwrite (if applicable)
+# Appwrite 
 appwrite.json
 **/_appwrite/
